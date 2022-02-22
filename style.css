@@ -52,6 +52,7 @@ html {
 }
 
 .apresentacao {
+    
   margin: 0 auto;
   padding: 1rem 15.2rem;
   display: flex;
@@ -59,11 +60,8 @@ html {
   justify-content: space-between;
 }
 
-.informacoesPessoais {
-  vertical-align: center;
-}
-
 .tituloApresentacao {
+
   color: #464646;
   font-family: "Raleway", sans-serif;
   font-size: 5.2rem;
@@ -72,6 +70,7 @@ html {
 }
 
 .biografia {
+
   color: #464646;
   font-family: "Raleway", sans-serif;
   font-size: 2.2rem;
@@ -81,6 +80,7 @@ html {
 }
 
 .redesSocias a {
+
   text-decoration: none;
   color: #464646;
   font-family: "Raleway", sans-serif;
@@ -89,17 +89,20 @@ html {
 }
 
 .redesSocias {
+
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
 .itens-redesSocias {
+
   padding: 2.65rem 0 0;
   margin-right: 6rem;
 }
 
 .imagemPerfil {
+
   border-radius: 50%;
   width: 36.8rem;
   height: 36.8rem;
@@ -139,4 +142,13 @@ html {
     font-weight: 400;
     line-height: 1.87rem;
     margin-bottom: 1.6rem;
+}
+
+/*Estilizando os section de skill e hobbies*/
+.hobbiesSoftSkills {
+
+    margin: 0 auto;
+    padding: 6.4rem 15.2rem;
+    background: #F5F5F5;
+    text-align: center;
 }
