@@ -2,14 +2,25 @@ html {
     font-size: 65.5%;
 }
 
+.cabecalhoPrincipal {
+
+    background: #F5F5F5;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3.2rem 0 3.2rem 0;
+}
+
 .topo {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #F5F5F5;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.logo {
+    
+    display: flex;
+    align-items: center;
 }
 
 .nome {
@@ -18,12 +29,20 @@ html {
     font-size: 1.6rem;
     font-weight: 700;
     color: #464646;
+    margin-left: 1.5rem;
+}
+
+.navBar {
+
+    display: flex;
+    align-items: center;
 }
 
 .itens-navBar a {
     
     color: #464646;
     text-decoration: none;
+    margin-left: 3.2rem;
 }
 
 .itens-navBar {
