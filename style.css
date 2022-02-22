@@ -1,120 +1,142 @@
 html {
-    font-size: 65.5%;
+  font-size: 65.5%;
 }
 
-.cabecalhoPrincipal {
+/*Estilização dos elementos da header*/
 
-    background: #F5F5F5;
+.cabecalhoPrincipal {
+  background: #f5f5f5;
 }
 
 .topo {
-
-    margin: 0 auto;
-    padding: 0 15.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 15.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    
-    display: flex;
-    align-items: center;
-    padding: 3.45rem 0;
+  display: flex;
+  align-items: center;
+  padding: 3.45rem 0;
 }
 
 .nome {
-
-    font-family: 'Raleway';
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #464646;
-    margin-left: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #464646;
+  margin-left: 1.5rem;
 }
 
 .navBar {
-
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .itens-navBar a {
-    
-    color: #464646;
-    text-decoration: none;
-    margin-left: 3.2rem;
+  color: #464646;
+  text-decoration: none;
+  margin-left: 3.2rem;
 }
 
 .itens-navBar {
-
-    font-family: 'Raleway';
-    font-size: 1.6rem;
-    font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .itens-navBar:last-child {
-    
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .apresentacao {
-
-    margin: 0 auto;
-    padding: 1rem 15.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem 15.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .informacoesPessoais {
-
-    vertical-align: center;
+  vertical-align: center;
 }
 
 .tituloApresentacao {
-
-    color: #464646;
-    font-family: 'Raleway';
-    font-size: 5.2rem;
-    font-weight: 700;
-    line-height: 6.1rem;
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 6.1rem;
 }
 
 .biografia {
-
-    color: #464646;
-    font-family: 'Raleway';
-    font-size: 2.2rem;
-    font-weight: 400;
-    line-height: 2.58rem;
-    margin-top: 2.4rem;
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 2.58rem;
+  margin-top: 2.4rem;
 }
 
 .redesSocias a {
-
-    text-decoration: none;
-    color: #464646;
-    font-family: 'Raleway';
-    font-size: 1.6rem;
-    font-weight: 500;
+  text-decoration: none;
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .redesSocias {
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
- .itens-redesSocias {
-    padding: 2.65rem 0  0;
-    margin-right: 6rem;
- }
+.itens-redesSocias {
+  padding: 2.65rem 0 0;
+  margin-right: 6rem;
+}
 
 .imagemPerfil {
+  border-radius: 50%;
+  width: 36.8rem;
+  height: 36.8rem;
+  margin-left: 1.7rem;
+}
 
-    border-radius: 50%;
-    width: 36.8rem;
-    height: 36.8rem;
-    margin-left: 1.7rem;
+/*Estilização dos elementos da main*/
+
+.sobreMim {
+
+  margin: 0 auto;
+  padding: 6.4rem 15.2rem;
+  background: #eaf2fd;
+  text-align: left;
+}
+
+.tituloPrincipal {
+
+  color: #464646;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  margin-bottom: 1.6rem;
+}
+
+.textoSobreMim {
+
+    width: 80%;
+}
+
+.paragrafo {
+
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87rem;
+    margin-bottom: 1.6rem;
 }
