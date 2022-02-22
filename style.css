@@ -5,22 +5,22 @@ html {
 .cabecalhoPrincipal {
 
     background: #F5F5F5;
-    width: 100%;
-    margin: 0 auto;
-    padding: 3.2rem 0 3.2rem 0;
 }
 
 .topo {
 
+    margin: 0 auto;
+    padding: 0 15.2rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
     
     display: flex;
     align-items: center;
+    padding: 3.45rem 0;
 }
 
 .nome {
@@ -59,17 +59,24 @@ html {
 
 .apresentacao {
 
-    width: 100%;
     margin: 0 auto;
-    background: #F5F5F5;
+    padding: 1rem 15.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacoesPessoais {
+
+    vertical-align: center;
 }
 
 .tituloApresentacao {
-    
-    color:#464646;
+
+    color: #464646;
     font-family: 'Raleway';
-    font-size: 5.4rem;
-    font-weight: bold;
+    font-size: 5.2rem;
+    font-weight: 700;
     line-height: 6.1rem;
 }
 
@@ -78,14 +85,36 @@ html {
     color: #464646;
     font-family: 'Raleway';
     font-size: 2.2rem;
-    line-height: 2.6rem;
+    font-weight: 400;
+    line-height: 2.58rem;
+    margin-top: 2.4rem;
 }
 
-.itens-redesSocias a {
+.redesSocias a {
 
+    text-decoration: none;
     color: #464646;
     font-family: 'Raleway';
     font-size: 1.6rem;
     font-weight: 500;
-    text-decoration: none;
+}
+
+.redesSocias {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ .itens-redesSocias {
+    padding: 2.65rem 0  0;
+    margin-right: 6rem;
+ }
+
+.imagemPerfil {
+
+    border-radius: 50%;
+    width: 36.8rem;
+    height: 36.8rem;
+    margin-left: 1.7rem;
 }
