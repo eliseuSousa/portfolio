@@ -56,3 +56,36 @@ html {
     
     font-weight: bold;
 }
+
+.apresentacao {
+
+    width: 100%;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+
+.tituloApresentacao {
+    
+    color:#464646;
+    font-family: 'Raleway';
+    font-size: 5.4rem;
+    font-weight: bold;
+    line-height: 6.1rem;
+}
+
+.biografia {
+
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+}
+
+.itens-redesSocias a {
+
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+}
