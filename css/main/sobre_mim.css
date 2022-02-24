@@ -29,3 +29,32 @@
     line-height: 1.87rem;
     margin-bottom: 1.6rem;
 }
+
+@media screen and (max-width:780px){
+    
+    .sobreMim {
+
+        padding: 3.2rem;
+    }
+
+    .tituloPrincipal {
+
+        font-size: 2.2rem;
+        line-height: 2.583rem;
+    }
+
+    .textoSobreMim {
+
+        width: 100%;
+    }
+
+    .paragrafo {
+
+        font-size: 1.4rem;
+        line-height: 1.644rem;
+    }
+    .paragrafo:last-child {
+
+        margin-bottom: 0;
+    }
+}
