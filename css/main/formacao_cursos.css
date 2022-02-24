@@ -1,0 +1,42 @@
+.formacaoCursos {
+
+  padding: 8.2rem 15.2rem;
+  background-color: #eaf2fd;
+}
+
+.formacaoCursos .tituloPrincipal {
+
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.listaDeFormacoes {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoInstituicaoDeEnsino {
+
+  width: 19.2rem;
+  height: 13rem;
+  padding: 7.8rem 8.8rem;
+  background: #FFFFFF;
+}
+
+.nomeDaFormacao {
+
+  color: #464646;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: .8rem 0;
+}
+
+.detalhesDaFormacao {
+
+  color: #464646;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}

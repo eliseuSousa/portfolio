@@ -1,10 +1,12 @@
 html {
+
   font-size: 65.5%;
 }
 
 /*Estilização dos elementos da header*/
 
-.cabecalhoPrincipal {
+/* .cabecalhoPrincipal {
+
   background: #f5f5f5;
 }
 
@@ -51,10 +53,11 @@ html {
 }
 
 .itens-navBar:last-child {
+  
   font-weight: bold;
-}
+} */
 
-.apresentacao {
+/* .apresentacao {
     
   padding: 1rem 15.2rem;
   display: flex;
@@ -109,11 +112,11 @@ html {
   width: 36.8rem;
   height: 36.8rem;
   margin-left: 1.7rem;
-}
+} */
 
 /*Estilização dos elementos da main*/
 
-.sobreMim {
+/* .sobreMim {
 
   padding: 6.4rem 15.2rem;
   background: #eaf2fd;
@@ -132,7 +135,7 @@ html {
 
 .textoSobreMim {
 
-    width: 80%;
+  width: 80%;
 }
 
 .paragrafo {
@@ -143,10 +146,10 @@ html {
   font-weight: 400;
   line-height: 1.87rem;
   margin-bottom: 1.6rem;
-}
+} */
 
 /*Estilizando os section de skill e hobbies*/
-.hobbiesSoftSkills {
+/* .hobbiesSkills {
 
   padding: 0 15.2rem;
   background: #F5F5F5;
@@ -174,11 +177,11 @@ html {
 
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /*Estilizando a section sobre formacao academica*/
 
-.formacaoCursos {
+/* .formacaoCursos {
 
   
   padding: 8.2rem 15.2rem;
@@ -220,4 +223,4 @@ html {
   font-family: 'Raleway', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-}
+} */

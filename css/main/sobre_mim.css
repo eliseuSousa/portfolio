@@ -1,0 +1,31 @@
+.sobreMim {
+
+    padding: 6.4rem 15.2rem;
+    background: #eaf2fd;
+    text-align: left;
+}
+
+.tituloPrincipal {
+
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    margin-bottom: 1.6rem;
+}
+
+.textoSobreMim {
+
+    width: 80%;
+}
+
+.paragrafo {
+
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87rem;
+    margin-bottom: 1.6rem;
+}
