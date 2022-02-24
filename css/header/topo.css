@@ -52,3 +52,21 @@
 
     font-weight: bold;
 }
+
+@media screen and (max-width: 780px) {
+
+    .topo {
+
+        padding: 0rem 3.2rem;
+    }
+
+    .nome {
+
+        margin-left: .9rem;
+    }
+
+    .itens-navBar:nth-child(-n + 5) {
+
+        display: none;
+    }
+}
