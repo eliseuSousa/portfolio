@@ -1,9 +1,11 @@
 .apresentacao {
     
-    padding: 1rem 15.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 9.95rem 15.2rem;
+}
+
+.informacoesPessoais {
+
+    width: 75.1rem;
 }
 
 .tituloApresentacao {
@@ -35,6 +37,11 @@
     font-weight: 1.878rem;
 }
 
+.imagemSeta {
+
+    margin-left: .469rem;
+}
+
 .redesSocias {
 
     display: flex;
@@ -50,6 +57,7 @@
 
 .imagemPerfil {
 
+    float: right;
     border-radius: 50%;
     width: 36.8rem;
     height: 36.8rem;
