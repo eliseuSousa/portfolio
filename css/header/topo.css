@@ -53,11 +53,12 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
 
     .topo {
 
-        padding: 0rem 3.2rem;
+        height: 0;
+        padding: 2rem 3.3rem;
     }
 
     .nome {
@@ -68,5 +69,27 @@
     .itens-navBar:nth-child(-n + 5) {
 
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .topo {
+
+        height: 0;
+        padding: 2rem 1.7rem;
+    }
+
+    .logo {
+
+        width: 13.4rem;
+        height: 0;
+        padding: 0;
+    }
+
+    .itens-navBar a{
+
+        font-weight: 400;
+        font-size: 1.4rem;
     }
 }

@@ -96,4 +96,16 @@
         height: 14.6rem;
         margin-left: 1.7rem;
     }
+
+    .apresentacao {
+        
+        padding: 4rem 3.2rem;
+    }
+
+    .informacoesPessoais {
+        width: 52.4rem;
+    }
+    .imagemPerfil {
+        margin-left: 3.2rem;
+    }
 }
