@@ -34,7 +34,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    font-weight: 1.878rem;
+    line-height: 1.878rem;
 }
 
 .imagemSeta {
@@ -103,9 +103,60 @@
     }
 
     .informacoesPessoais {
+        
         width: 52.4rem;
     }
+
     .imagemPerfil {
         margin-left: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    
+    .apresentacao {
+
+        padding: 1.6rem;
+    }
+
+    .imagemPerfil {
+
+        float: none;
+        width: 9.8rem;
+        height: 9.8rem;
+        margin-left: 0;
+    }
+
+    .informacoesPessoais, .biografia, .redesSocias {
+        
+        width: 32.8rem;
+    }
+
+    .biografia {
+
+        margin-top: .6rem;
+        font-size: 1.4rem;
+        line-height: 1.644rem;
+    }
+
+    .redesSocias a {
+
+        font-size: 1.4rem;
+        font-weight: 600;
+        align-items: center;
+    }
+
+    .itens-redesSocias {
+
+        justify-content: space-between;
+        padding-top: 1.6rem;
+        margin-right: .846rem;
+    }
+
+    .imagemSeta {
+
+        width: 1.067rem;
+        height: 1.067rem;
+        margin-left: 0.046rem;
     }
 }
