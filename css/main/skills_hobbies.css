@@ -72,9 +72,19 @@
         padding: 3.2rem 0;
     }
 
+    .icone {
+
+        padding-left: 0;
+    }
+
     .skills .tituloPrincipal {
 
         padding-top: 0;  
+    }
+
+    .hobbies .tituloPrincipal {
+
+        margin-bottom: 0;
     }
 
     .areaSkills, .areaHobbies {
@@ -103,13 +113,56 @@
         margin-right: 0;
     }
 
-    .itens-skills:nth-child(n + 3), .itens-hobbies:nth-child(n+3) {
-        margin-right: 0;
+    .itens-skills:nth-child(n + 2), .itens-hobbies:nth-child(n+2) {
+
         margin-bottom: 0;
+    }
+
+    .itens-skills:last-child, .itens-hobbies:last-child {
+
+        margin-right: 0;
     }
 
     .listaHobbies {
 
         justify-content: start;
+    }
+}
+
+@media screen and (max-width: 360px){
+    
+    .hobbiesSkills {
+
+        padding: 0 1.6rem;
+    }
+
+    .skills {
+        padding: 1.6rem 0;
+    } 
+
+    .conteudoItem {
+
+        width: 12rem;
+    }
+
+    .itens-skills, .itens-hobbies {
+
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .itens-skills:nth-child(n) {
+
+        margin-right: 0;
+    }
+
+    .itens-skills:nth-child(n+3), .itens-hobbies:nth-child(n+3) {
+
+        margin-bottom: 3.2rem;
+    }
+
+    .itens-skills:last-child, .itens-hobbies:last-child {
+
+        margin-bottom: 0;
     }
 }
