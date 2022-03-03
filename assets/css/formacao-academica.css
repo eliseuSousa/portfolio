@@ -2,3 +2,9 @@
     padding: 8.2rem 15.2rem;
     background-color: #eaf2fd;
 }
+
+@media screen and (max-width: 768px) {
+    .formacao-academica {
+        padding: 3.2rem;
+    }   
+}

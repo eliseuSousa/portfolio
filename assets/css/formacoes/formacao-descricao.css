@@ -4,3 +4,9 @@
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+    .formacao__descricao {
+        font-size: 1.4rem;
+    }
+}
