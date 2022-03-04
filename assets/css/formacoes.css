@@ -8,3 +8,10 @@
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .formacoes {
+        flex-direction: column;
+        justify-content: space-between;
+    }   
+}
