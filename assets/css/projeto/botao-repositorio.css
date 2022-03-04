@@ -2,6 +2,7 @@
     background: #F5F5F5;
     border: .1rem solid #2A7AE4;
     padding: 1.6rem;
+    margin-right: 1.6rem;
 }
 
 .projeto__botao--repositorio a {
@@ -19,7 +20,6 @@
 @media screen and (max-width: 768px){
     .projeto__botao--repositorio {
         padding: 1.2rem 1.6rem;
-        margin-right: 1.6rem;
     }
 
     .projeto__botao--repositorio a {
