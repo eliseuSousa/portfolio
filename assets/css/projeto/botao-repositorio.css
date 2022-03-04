@@ -1,0 +1,29 @@
+.projeto__botao--repositorio {
+    background: #F5F5F5;
+    border: .1rem solid #2A7AE4;
+    padding: 1.6rem;
+}
+
+.projeto__botao--repositorio a {
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font: weight 400px;;
+    text-decoration: none;
+}
+
+.projeto__botao--repositorio:hover {
+    background: #D4E4FA;
+}
+
+@media screen and (max-width: 768px){
+    .projeto__botao--repositorio {
+        padding: 1.2rem 1.6rem;
+        margin-right: 1.6rem;
+    }
+
+    .projeto__botao--repositorio a {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+}

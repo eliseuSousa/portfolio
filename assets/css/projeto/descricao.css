@@ -1,0 +1,13 @@
+.projeto__descricao {
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .projeto__descricao {
+        font-size: 1.4rem;
+    }
+}

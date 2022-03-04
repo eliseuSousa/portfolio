@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 768px) {
     .formacoes {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 

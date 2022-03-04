@@ -1,0 +1,10 @@
+.experiencia {
+    background: #F5F5F5;
+    padding: 3.2rem 15.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .experiencia {
+        padding: 3.2rem;
+    }
+}

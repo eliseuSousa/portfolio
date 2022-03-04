@@ -1,0 +1,12 @@
+.projeto__imagem {
+    height: 40.8rem;
+    width: 75.2rem;
+}
+
+@media screen and (max-width:768px){
+    .projeto__imagem {
+        height: 32rem;
+        width: 60rem;
+        margin-bottom: 1.6rem;
+    }
+}
