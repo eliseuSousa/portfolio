@@ -1,0 +1,5 @@
+.projeto__lista-linguagens {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
+}
