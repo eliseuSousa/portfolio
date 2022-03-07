@@ -39,9 +39,9 @@ label {
 .input-texto input:valid ~ label,
 .input-texto textarea:valid ~ label {
   color: #2a7ae4;
-  top: -0.8rem;
+  top: -1rem;
   font-size: 1.2rem;
-  padding-top: 0.8rem;
+  padding-top: 1.2rem;
 }
 
 .input-texto input:focus,

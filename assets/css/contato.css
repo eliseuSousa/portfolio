@@ -3,3 +3,12 @@
   background: #eaf2fd;
   padding: 12.8rem 15.2rem 6.55rem 15.2rem;
 }
+
+@media screen and (max-width: 720px) {
+  .contato {
+    padding: 3.2rem;
+  }
+  .contato__imagem {
+    display: none;
+  }
+}

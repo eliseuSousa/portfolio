@@ -5,3 +5,9 @@
   font-weight: 700;
   margin-bottom: 0.8rem;
 }
+
+@media screen and (max-width: 720px) {
+  .contato__titulo {
+    font-size: 2.2rem;
+  }
+}
