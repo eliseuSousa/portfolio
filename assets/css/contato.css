@@ -4,7 +4,7 @@
   padding: 12.8rem 15.2rem 6.55rem 15.2rem;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .contato {
     padding: 3.2rem;
   }

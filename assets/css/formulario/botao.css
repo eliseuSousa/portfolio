@@ -11,3 +11,9 @@
 .contato__formulario--botao:hover {
   background: #5595e9;
 }
+
+@media screen and (max-width: 768px) {
+  .contato__formulario--botao {
+    font-size: 1.4rem;
+  }
+}

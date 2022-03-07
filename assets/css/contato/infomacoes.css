@@ -1,3 +1,9 @@
 .contato__informacoes {
   margin-left: 1.6rem;
 }
+
+@media screen and (max-width: 780px) {
+  .contato__informacoes {
+    margin-left: 0;
+  }
+}
