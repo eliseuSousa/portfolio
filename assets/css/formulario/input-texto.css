@@ -1,19 +1,51 @@
 .input-texto {
+  position: relative;
+}
+
+.input-texto input {
+  height: 4.6rem;
+}
+
+.input-texto input,
+textarea {
   color: #464646;
-  border: none;
-  border-bottom: 0.1rem solid #c8c8c8;
-  border-radius: 0.5rem;
-  display: block;
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  height: 3.6rem;
+  border: none;
+  border-bottom: 0.1rem solid #c8c8c8;
+  width: 98%;
+  border-radius: 5px;
   margin-bottom: 3.2rem;
-  width: 95%;
-  padding: 0.5rem;
+  padding-left: 1.2rem;
 }
 
-.input-texto:focus {
+label {
+  color: #a2a2a2;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  position: absolute;
+  left: 1.2rem;
+  top: 1.6rem;
+  bottom: 1.6rem;
+  user-select: none;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-texto input:focus ~ label,
+.input-texto textarea:focus ~ label,
+.input-texto input:valid ~ label,
+.input-texto textarea:valid ~ label {
+  color: #2a7ae4;
+  top: -0.8rem;
+  font-size: 1.2rem;
+  padding-top: 0.8rem;
+}
+
+.input-texto input:focus,
+.input-texto textarea:focus {
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;

@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -398,11 +398,29 @@
                     Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
 
                 <form action="" id="formulario" class="contato__formulario">
-                    <input type="text" placeholder="Nome" class="contato__formulario--nome input-texto" required>
-                    <input type="email" placeholder="E-mail" class="formulario__contato--email input-texto" required>
-                    <input type="text" placeholder="Assunto" class="contato__formulario--assunto input-texto" required>
-                    <textarea class="contato__formulario--mensagem input-texto" placeholder="Mensagem" style="height: 13.3rem; padding-top: 1.6rem;" required></textarea>
+                    
+                    <div class="input-texto">
+                        <input type="text" class="contato__formulario--nome" required>
+                        <label for="contato__formulario--nome">Nome</label>
+                    </div>
+
+                    <div class="input-texto">
+                        <input type="email" class="formulario__contato--email" required>
+                        <label for="formulario__contato--emal">E-mail</label>
+                    </div>
+
+                    <div class="input-texto">
+                        <input type="text" class="contato__formulario--assunto" required>
+                        <label for="contato__formulario--assunto">Assunto</label>
+                    </div>
+
+                    <div class="input-texto">
+                        <textarea class="contato__formulario--mensagem" style="height: 13.3rem; padding-top: 1.6rem;" required></textarea>
+                        <label for="contato__formulario--mensagem">Mensagem</label>
+                    </div>
+
                     <input type="submit" class="contato__formulario--botao" value="Enviar mensagem">
+
                 </form>
             </div>
         </section>
