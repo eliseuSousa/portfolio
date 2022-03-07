@@ -36,7 +36,15 @@
   <link rel="stylesheet" href="./assets/css/projeto/botao-demo.css">
   <link rel="stylesheet" href="./assets/css/projeto/lista-linguagem.css">
   <link rel="stylesheet" href="./assets/css/projeto/linguagem-imagem.css">
+  <link rel="stylesheet" href="./assets/css/contato.css">
   <link rel="stylesheet" href="./assets/css/rodape.css">
+  <link rel="stylesheet" href="./assets/css/contato.css">
+  <link rel="stylesheet" href="./assets/css/contato/infomacoes.css">
+  <link rel="stylesheet" href="./assets/css/contato/titulo.css">
+  <link rel="stylesheet" href="./assets/css/contato/mensagem.css">
+  <link rel="stylesheet" href="./assets/css/formulario/formulario.css">
+  <link rel="stylesheet" href="./assets/css/formulario/input-texto.css">
+  <link rel="stylesheet" href="./assets/css/formulario/botao.css">
   <link rel="stylesheet" href="./assets/css/rodape/autor.css">
   <link rel="stylesheet" href="./assets/css/rodape/ano.css">
   <link rel="stylesheet" href="./style.css">
@@ -388,10 +396,10 @@
                 Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
 
             <form action="" id="formulario" class="contato__formulario">
-                <input type="text" class="contato__formulario--nome input-texto" required>
-                <input type="text" class="formulario__contato--email input-texto" required>
-                <input type="text" class="contato__formulario--assunto input-texto" required>
-                <textarea class="contato__formulario--mensagem" required></textarea>
+                <input type="text" placeholder="Nome" class="contato__formulario--nome input-texto" required>
+                <input type="email" placeholder="E-mail" class="formulario__contato--email input-texto" required>
+                <input type="text" placeholder="Assunto" class="contato__formulario--assunto input-texto" required>
+                <textarea class="contato__formulario--mensagem input-texto" placeholder="Mensagem" style="height: 13.3rem; padding-top: 1.6rem;" required></textarea>
                 <input type="submit" class="contato__formulario--botao" value="Enviar mensagem">
             </form>
         </div>

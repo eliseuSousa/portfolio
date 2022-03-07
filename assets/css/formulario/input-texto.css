@@ -1,0 +1,21 @@
+.input-texto {
+  color: #464646;
+  border: none;
+  border-bottom: 0.1rem solid #c8c8c8;
+  border-radius: 0.5rem;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  height: 3.6rem;
+  margin-bottom: 3.2rem;
+  width: 95%;
+  padding: 0.5rem;
+}
+
+.input-texto:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-bottom: 0.2rem solid #2a7ae4;
+}

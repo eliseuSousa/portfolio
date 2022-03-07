@@ -1,0 +1,13 @@
+.contato__formulario--botao {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background: #2a7ae4;
+  border: none;
+  padding: 1.6rem;
+  transition: 0.5s all;
+}
+.contato__formulario--botao:hover {
+  background: #5595e9;
+}
