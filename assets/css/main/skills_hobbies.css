@@ -28,6 +28,35 @@
   padding-top: 0.8rem;
 }
 
+@media screen and (max-width: 768px) {
+  .listaSkills,
+  .listaHobbies {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .itens-skills,
+  .itens-hobbies {
+    width: 19.4rem;
+    height: 10.8rem;
+    background: #ffffff;
+    margin-right: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .itens-skills:nth-child(3n),
+  .itens-skills:last-child,
+  .itens-hobbies:nth-child(3n),
+  .itens-hobbies:last-child {
+    margin-right: 0;
+  }
+
+  .conteudoItem {
+    margin-top: 3.8rem;
+    margin-left: 1.6rem;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .listaSkills,
   .listaHobbies {
