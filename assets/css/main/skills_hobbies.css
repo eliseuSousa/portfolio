@@ -1,5 +1,5 @@
 .hobbiesSkills {
-  padding: 0 3.2rem;
+  padding: 0 15.2rem;
   background: #f5f5f5;
 }
 
@@ -53,6 +53,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hobbiesSkills {
+    padding: 0 3.2rem;
+  }
+
+  .listaSkills,
+  .listaHobbies {
+    justify-content: flex-start;
+    margin-right: 1.6rem;
+  }
   .itens-skills,
   .itens-hobbies {
     width: 19.4rem;
