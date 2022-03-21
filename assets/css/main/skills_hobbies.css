@@ -41,8 +41,12 @@
   height: 17.4rem;
   background-color: #ffffff;
   margin-bottom: 5.6rem;
+  transition: all 0.3s;
 }
 
+/* .itens-skills:hover,
+.itens-hobbies:hover {
+} */
 .itens-hobbies {
   margin-bottom: 8.8rem;
 }
