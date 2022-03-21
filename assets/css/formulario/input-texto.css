@@ -37,10 +37,16 @@ label {
 }
 
 .input-texto input:focus ~ label,
-.input-texto textarea:focus ~ label,
+.input-texto textarea:focus ~ label {
+  color: #2a7ae4;
+  top: -1rem;
+  font-size: 1.2rem;
+  padding-top: 1.2rem;
+}
+
 .input-texto input:valid ~ label,
 .input-texto textarea:valid ~ label {
-  color: #2a7ae4;
+  color: #a2a2a2;
   top: -1rem;
   font-size: 1.2rem;
   padding-top: 1.2rem;

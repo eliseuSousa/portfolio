@@ -1,95 +1,84 @@
 /*Estilização dos elementos da header*/
 
 .cabecalhoPrincipal {
-
-    background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 .topo {
-
-    padding: 0 15.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 0 15.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-
-    display: flex;
-    align-items: center;
-    padding: 3.45rem 0;
+  display: flex;
+  align-items: center;
+  padding: 3.45rem 0;
 }
 
 .nome {
-
-    font-family: "Raleway", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #464646;
-    margin-left: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #464646;
+  margin-left: 1.5rem;
 }
 
 .navBar {
-    
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .itens-navBar a {
-    color: #464646;
-    text-decoration: none;
-    margin-left: 3.2rem;
+  color: #464646;
+  text-decoration: none;
+  margin-left: 3.2rem;
+  transition: all 0.3s;
 }
 
 .itens-navBar {
-
-    font-family: "Raleway", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .itens-navBar:last-child {
-
-    font-weight: bold;
+  font-weight: bold;
 }
 
+.itens-navBar a:hover {
+  color: #2a7ae4;
+}
 @media screen and (max-width: 768px) {
+  .topo {
+    height: 0;
+    padding: 2rem 3.3rem;
+  }
 
-    .topo {
+  .nome {
+    margin-left: 0.9rem;
+  }
 
-        height: 0;
-        padding: 2rem 3.3rem;
-    }
-
-    .nome {
-
-        margin-left: .9rem;
-    }
-
-    .itens-navBar:nth-child(-n + 5) {
-
-        display: none;
-    }
+  .itens-navBar:nth-child(-n + 5) {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 368px){
+@media screen and (max-width: 368px) {
+  .topo {
+    height: 0;
+    padding: 2rem 1.7rem;
+  }
 
-    .topo {
+  .logo {
+    width: 13.4rem;
+    height: 0;
+    padding: 0;
+  }
 
-        height: 0;
-        padding: 2rem 1.7rem;
-    }
-
-    .logo {
-
-        width: 13.4rem;
-        height: 0;
-        padding: 0;
-    }
-
-    .itens-navBar a{
-
-        font-weight: 400;
-        font-size: 1.4rem;
-    }
+  .itens-navBar a {
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
 }

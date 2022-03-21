@@ -455,29 +455,29 @@
                 <p class="contato__mensagem">Quer entrar em contato comigo?
                     Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
 
-                <form action="" id="formulario" class="contato__formulario">
+                <form action="" name="form" id="formulario" class="contato__formulario">
                     
                     <div class="input-texto">
-                        <input type="text" class="contato__formulario--nome" required>
+                        <input type="text" class="contato__formulario--nome" name="nome" required>
                         <label for="contato__formulario--nome">Nome</label>
                     </div>
 
                     <div class="input-texto">
-                        <input type="email" class="formulario__contato--email" required>
+                        <input type="email" class="formulario__contato--email" name="email" required>
                         <label for="formulario__contato--emal">E-mail</label>
                     </div>
 
                     <div class="input-texto">
-                        <input type="text" class="contato__formulario--assunto" required>
+                        <input type="text" class="contato__formulario--assunto" name="assunto" required>
                         <label for="contato__formulario--assunto">Assunto</label>
                     </div>
 
                     <div class="input-texto">
-                        <textarea class="contato__formulario--mensagem" style="height: 13.3rem; padding-top: 1.6rem;" required></textarea>
+                        <textarea class="contato__formulario--mensagem" style="height: 13.3rem; padding-top: 1.6rem;" name="mensagem" name="mensagem" required></textarea>
                         <label for="contato__formulario--mensagem">Mensagem</label>
                     </div>
 
-                    <input type="submit" class="contato__formulario--botao" value="Enviar mensagem">
+                    <input type="submit" class="contato__formulario--botao" value="Enviar mensagem" disabled>
 
                 </form>
             </div>
@@ -490,5 +490,5 @@
     </footer>
 
   </body>
-  
+  <script src="./validade.js"></script>
 </html>
