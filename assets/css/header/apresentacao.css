@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 375px) {
   .apresentacao {
     padding: 1.6rem;
   }

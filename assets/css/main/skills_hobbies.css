@@ -86,7 +86,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .listaSkills,
   .listaHobbies {
     justify-content: space-between;

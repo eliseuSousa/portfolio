@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 375px) {
   .topo {
     height: 0;
     padding: 2rem 1.7rem;
