@@ -1,17 +1,17 @@
 .formacoes {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-    .formacoes {
-        justify-content: space-between;
-    }
+  .formacoes {
+    justify-content: space-between;
+  }
 }
 
-@media screen and (max-width: 375px) {
-    .formacoes {
-        flex-direction: column;
-        justify-content: space-between;
-    }   
+@media screen and (max-width: 425px) {
+  .formacoes {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

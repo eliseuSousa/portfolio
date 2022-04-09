@@ -1,8 +1,8 @@
-@media screen and (max-width: 375px) {
-    .formacao__itens {
-        margin-bottom: 1.6rem;
-    }
-    .formacao__itens:last-child {
-        margin-bottom: 0;
-    }   
+@media screen and (max-width: 425px) {
+  .formacao__itens {
+    margin-bottom: 1.6rem;
+  }
+  .formacao__itens:last-child {
+    margin-bottom: 0;
+  }
 }

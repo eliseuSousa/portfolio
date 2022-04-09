@@ -1,20 +1,20 @@
 .formacao__imagem {
-    background: #fff;
-    padding: 7.8rem 8.9rem;
-    height: 13rem;
-    width: 19.2rem;
+  background: #fff;
+  padding: 7.8rem 8.9rem;
+  height: 13rem;
+  width: 19.2rem;
 }
 
 @media screen and (max-width: 768px) {
-    .formacao__imagem {
-        padding: 3rem 7rem;
-        height: 6rem;
-        width: 10.2rem;
-    }
+  .formacao__imagem {
+    padding: 3rem 7rem;
+    height: 6rem;
+    width: 10.2rem;
+  }
 }
 
-@media screen and (max-width: 375px) {
-    .formacao__imagem {
-        padding: 2.9rem 9.2rem;
-    }   
+@media screen and (max-width: 425px) {
+  .formacao__imagem {
+    padding: 2.9rem 9.2rem;
+  }
 }

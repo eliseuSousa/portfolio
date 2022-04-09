@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 425px) {
     .projeto__imagem {
         width: 100%;
         height: 19.8rem;
