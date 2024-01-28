@@ -43,13 +43,14 @@
   font-weight: 500;
 }
 
-.itens-navBar:last-child {
+.itens-navBar.bold {
   font-weight: bold;
 }
 
 .itens-navBar a:hover {
   color: #2a7ae4;
 }
+
 @media screen and (max-width: 768px) {
   .topo {
     height: 0;

@@ -1,4 +1,6 @@
 .apresentacao {
+  display: flex;
+  align-items: center;
   padding: 9.95rem 15.2rem;
 }
 
@@ -48,7 +50,6 @@
 }
 
 .imagemPerfil {
-  float: right;
   border-radius: 50%;
   width: 36.8rem;
   height: 36.8rem;
